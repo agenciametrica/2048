@@ -1,5 +1,7 @@
 body { background-color: #04d0fb; color: black; }
 
+#logo { max-width: 100%; }
+
 .game-container { background-color: #be5353; }
 
 .mid { width: 49%; float: left; text-align: center; }
