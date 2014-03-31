@@ -2,6 +2,18 @@ body { background-color: #04d0fb; color: black; }
 
 #logo { max-width: 100%; }
 
+#social {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 50px;
+	line-height: 50px;
+	margin: 30px 0;
+}
+
+a {
+	color: black;
+}
+
 .game-container { background-color: #be5353; }
 
 .mid { width: 49%; float: left; text-align: center; }
@@ -17,14 +29,14 @@ body { background-color: #04d0fb; color: black; }
 .scores-container { display: inline-block; }
 .heading img { padding: 50px 0;}
 
-.tile-2 .tile-inner { background: url("../img/tile-2.png") !important; background-size: cover !important; }
-.tile-4 .tile-inner { background: url("../img/tile-4.png") !important; background-size: cover !important; }
-.tile-8 .tile-inner { background: url("../img/tile-8.png") !important; background-size: cover !important; }
-.tile-16 .tile-inner { background-image: url("../img/tile-16.png") !important; background-size: cover !important; }
-.tile-32 .tile-inner { background-image: url("../img/tile-32.png") !important; background-size: cover !important; }
-.tile-64 .tile-inner { background-image: url("../img/tile-64.png") !important; background-size: cover !important; }
-.tile-128 .tile-inner { background-image: url("../img/tile-128.png") !important; background-size: cover !important; }
-.tile-256 .tile-inner { background-image: url("../img/tile-256.png") !important; background-size: cover !important; }
-.tile-512 .tile-inner { background-image: url("../img/tile-512.png") !important; background-size: cover !important; }
-.tile-1024 .tile-inner { background-image: url("../img/tile-1024.png") !important; background-size: cover !important; }
-.tile-2048 .tile-inner { background-image: url("../img/tile-2048.gif") !important; background-size: cover !important; }
+.tile-2 .tile-inner { background: url("../img/tile-2.png") #ff3636 !important; background-size: cover !important; }
+.tile-4 .tile-inner { background: url("../img/tile-4.png") #ff5b36 !important; background-size: cover !important; }
+.tile-8 .tile-inner { background: url("../img/tile-8.png") #ffa536 !important; background-size: cover !important; }
+.tile-16 .tile-inner { background: url("../img/tile-16.png") #a0ff36 !important; background-size: cover !important; }
+.tile-32 .tile-inner { background: url("../img/tile-32.png") #36ff6a !important; background-size: cover !important; }
+.tile-64 .tile-inner { background: url("../img/tile-64.png") #36ffe5 !important; background-size: cover !important; }
+.tile-128 .tile-inner { background: url("../img/tile-128.png") #368cff !important; background-size: cover !important; }
+.tile-256 .tile-inner { background: url("../img/tile-256.png") #6336ff !important; background-size: cover !important; }
+.tile-512 .tile-inner { background: url("../img/tile-512.png") #36b5ff !important; background-size: cover !important; }
+.tile-1024 .tile-inner { background: url("../img/tile-1024.png") #ffb236 !important; background-size: cover !important; }
+.tile-2048 .tile-inner { background: url("../img/tile-2048.gif") #ffcc00 !important; background-size: cover !important; }
