@@ -40,3 +40,4 @@ a {
 .tile-512 .tile-inner { background: url("../img/tile-512.png") #36b5ff !important; background-size: cover !important; }
 .tile-1024 .tile-inner { background: url("../img/tile-1024.png") #ffb236 !important; background-size: cover !important; }
 .tile-2048 .tile-inner { background: url("../img/tile-2048.gif") #ffcc00 !important; background-size: cover !important; }
+.tile-4096 .tile-inner { background: url("../img/tile-4096.gif") #feed01 !important; background-size: cover !important; }
